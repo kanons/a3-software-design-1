@@ -2,6 +2,7 @@
 
 ## PieScheduleChart
 PieScheduleChart is a pie chart that represents the schedule of the day in 24 hour basis. Example shows typical schedule of informatics student
+
 ![Example of PieScheduleChart](img/example1.png)
 
 ## General usage
