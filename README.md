@@ -35,7 +35,9 @@ This chart can visualize the daily schedule easily. There are scales outside of 
 }
 ```
 
-##PieScheduleChart API
+
+## PieScheduleChart API
+
 PieScheduleChart can be rendered with several parameters, including..
 ```javascript
     var psc = pieScheduleChart().radius(200)
@@ -49,9 +51,11 @@ PieScheduleChart can be rendered with several parameters, including..
         .attr('class', 'chart')
         .merge(charts)
         .call(psc);
+```
 
 
 ## PieScheduleChart functions
+
 All functions return the current PieScheduleChart object, otherwise returns notes to the user:
 
 |functions      |Description|
@@ -61,8 +65,3 @@ All functions return the current PieScheduleChart object, otherwise returns note
 |pieScheduleChart().radius(num)|If there is no argument, it's set to half of height. With the given input, it changes the radius of pieScheduleChart. Number always has to be greater than 0. returns current PieScheduleChart.|
 |pieScheduleChart().fillColor(color)|If there is no argument, it's set to 'red' to fill the colors in the pie chart. input string has to be either one of keyword color or hex color.returns current PieScheduleChart
 |pieScheduleChart().hover(bool)|If there is no argument, it's set to be 'true' so that it provides hovering function. When it's set to be false, it shows the current status when hovering to user. returns current PieScheduleChart|
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
