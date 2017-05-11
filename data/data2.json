@@ -1,0 +1,26 @@
+{
+    "INFO340" : {
+        "startHour": 11,
+        "startMinute": 30,
+        "endHour":13,
+        "endMinute":20
+    },
+    "INFO101" : {
+        "startHour": 16,
+        "startMinute": 30,
+        "endHour":18,
+        "endMinute":20
+    },
+    "Lunch" : {
+        "startHour": 13,
+        "startMinute": 30,
+        "endHour":14,
+        "endMinute":20
+    },
+    "INFO360" : {
+        "startHour": 14,
+        "startMinute": 30,
+        "endHour":16,
+        "endMinute":20
+    }
+}
