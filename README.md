@@ -64,5 +64,7 @@ All functions return the current PieScheduleChart object, otherwise returns note
 |pieScheduleChart().width(num)|If there is no argument, it's set to 960. With the given input, it changes the width of pieScheduleChart. Number always has to be greater than 0. returns current PieScheduleChart.|
 |pieScheduleChart().height(num)|If there is no argument, it's set to 800. With the given input, it changes the height of pieScheduleChart. Number always has to be greater than 0. returns current PieScheduleChart.|
 |pieScheduleChart().radius(num)|If there is no argument, it's set to half of height. With the given input, it changes the radius of pieScheduleChart. Number always has to be greater than 0. returns current PieScheduleChart.|
-|pieScheduleChart().fillColor(color)|If there is no argument, it's set to 'red' to fill the colors in the pie chart. input string has to be either one of keyword color or hex color.returns current PieScheduleChart
+|pieScheduleChart().colors(color)|If there is no argument, it's set to 'red' to fill the colors in the pie chart. input string has to be either one of keyword color or hex color.returns current PieScheduleChart
 |pieScheduleChart().hover(bool)|If there is no argument, it's set to be 'true' so that it provides hovering function. When it's set to be false, it shows the current status when hovering to user. returns current PieScheduleChart|
+|pieScheduleChart().lineColor(color)|If there is no argument, it's set to 'black' to fill the colors in the pie chart. input string has to be either one of keyword color or hex color.returns current PieScheduleChart
+

@@ -298,9 +298,15 @@ var pieScheduleChart = function(){
         return pieSchedule;
     };
 
-    pieSchedule.fillColor = function(value) {
-        if (!arguments.length) return fillColor;
-        fillColor = value;
+    pieSchedule.colors = function(value) {
+        if (!arguments.length) return colors;
+        colors = value;
+        return pieSchedule;
+    };
+    
+    pieSchedule.lineColor = function(value) {
+        if (!arguments.length) return lineColor;
+        lineColor = value;
         return pieSchedule;
     };
     return pieSchedule;
